@@ -1,0 +1,32 @@
+# Compiled JavaScript files dist dist/**/*.js dist/**/*.js.map  # TypeScript v1 declaration files typings/  # Node.js dependency directory node_modules/  # firebaserc project configuration .firebaserc  # Editor directories and files .idea .vscode  # NPM configuration .npmrc  # Log files *.log  # Environment Configuration .env *.env .env.* !.env.example
+# Compiled JavaScript files
+dist
+dist/**/*.js
+dist/**/*.js.map
+docs
+.DS_Store
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+
+# firebaserc project configuration
+.firebaserc
+
+# Editor directories and files
+.idea
+.vscode
+
+# NPM configuration
+.npmrc
+
+# Log files
+*.log
+
+# Environment Configuration
+.env
+*.env
+.env.*
+!.env.example

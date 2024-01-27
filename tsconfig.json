@@ -1,0 +1,26 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "~/*": [
+        "./src/*"
+      ],
+      "root/": [
+        "./*"
+      ]
+    },
+    "types": [
+      "bun-types" // add Bun global
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
